@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/Roland/AeroFS/MoozX/Lighthouse Labs/Lecture-Demos/w3d1-demo/Bubble/2-Bubble.xcodeproj">
+      location = "group:/Users/Roland/AeroFS/MoozX/Lighthouse Labs/Lecture-Demos/w3d1-demo/Bubble/2-ScrollingView.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:/Users/Roland/AeroFS/MoozX/Lighthouse Labs/Lecture-Demos/w3d1-demo/Pager/1-Pager.xcodeproj">

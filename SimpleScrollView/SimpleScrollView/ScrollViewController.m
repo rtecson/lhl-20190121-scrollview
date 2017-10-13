@@ -2,8 +2,8 @@
 //  ScrollViewController.m
 //  SimpleScrollView
 //
-//  Created by steve on 2017-09-18.
-//  Copyright © 2017 steve. All rights reserved.
+//  Created by Roland on 2017-09-18.
+//  Copyright © 2017 Roland. All rights reserved.
 //
 
 #import "ScrollViewController.h"
@@ -28,25 +28,31 @@
     scrollView.maximumZoomScale = 3.0;
 }
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-  
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    NSLog(@"In scrollViewDidScroll");
 }
 
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-  
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    NSLog(@"In scrollViewDidEndDecelerating");
 }
 
-- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
-  
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    NSLog(@"In scrollViewWillBeginDragging");
 }
 
 - (void)scrollViewWillEndDragging:(UIScrollView *)scrollView
                      withVelocity:(CGPoint)velocity
-              targetContentOffset:(inout CGPoint *)targetContentOffset {
-  
+              targetContentOffset:(inout CGPoint *)targetContentOffset
+{
+    NSLog(@"In scrollViewWillEndDragging");
 }
 
-- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    NSLog(@"In viewForZoomingInScrollView");
     return self.imageView;
 }
 

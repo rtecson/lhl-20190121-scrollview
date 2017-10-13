@@ -13,11 +13,11 @@
 		AA3427801F705B7A009FF8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA34277E1F705B7A009FF8A8 /* Main.storyboard */; };
 		AA3427821F705B7A009FF8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3427811F705B7A009FF8A8 /* Assets.xcassets */; };
 		AA3427851F705B7A009FF8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3427831F705B7A009FF8A8 /* LaunchScreen.storyboard */; };
-		AA34278E1F705DCC009FF8A8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34278D1F705DCC009FF8A8 /* SecondViewController.m */; };
+		AA34278E1F705DCC009FF8A8 /* ScrollingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34278D1F705DCC009FF8A8 /* ScrollingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA3427721F705B7A009FF8A8 /* 2-Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2-Bubble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3427721F705B7A009FF8A8 /* 2-ScrollingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2-ScrollingView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3427761F705B7A009FF8A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA3427781F705B7A009FF8A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA3427791F705B7A009FF8A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +27,8 @@
 		AA3427811F705B7A009FF8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA3427841F705B7A009FF8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA3427861F705B7A009FF8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA34278C1F705DCC009FF8A8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		AA34278D1F705DCC009FF8A8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AA34278C1F705DCC009FF8A8 /* ScrollingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingViewController.h; sourceTree = "<group>"; };
+		AA34278D1F705DCC009FF8A8 /* ScrollingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		AA3427691F705B7A009FF8A8 = {
 			isa = PBXGroup;
 			children = (
-				AA3427741F705B7A009FF8A8 /* Bubble */,
+				AA3427741F705B7A009FF8A8 /* ScrollingView */,
 				AA3427731F705B7A009FF8A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,20 +53,20 @@
 		AA3427731F705B7A009FF8A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA3427721F705B7A009FF8A8 /* 2-Bubble.app */,
+				AA3427721F705B7A009FF8A8 /* 2-ScrollingView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA3427741F705B7A009FF8A8 /* Bubble */ = {
+		AA3427741F705B7A009FF8A8 /* ScrollingView */ = {
 			isa = PBXGroup;
 			children = (
 				AA34277E1F705B7A009FF8A8 /* Main.storyboard */,
-				AA34278C1F705DCC009FF8A8 /* SecondViewController.h */,
-				AA34278D1F705DCC009FF8A8 /* SecondViewController.m */,
+				AA34278C1F705DCC009FF8A8 /* ScrollingViewController.h */,
+				AA34278D1F705DCC009FF8A8 /* ScrollingViewController.m */,
 				AA3427751F705B7A009FF8A8 /* Supporting Files */,
 			);
-			path = Bubble;
+			path = ScrollingView;
 			sourceTree = "<group>";
 		};
 		AA3427751F705B7A009FF8A8 /* Supporting Files */ = {
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA3427711F705B7A009FF8A8 /* 2-Bubble */ = {
+		AA3427711F705B7A009FF8A8 /* 2-ScrollingView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA3427891F705B7A009FF8A8 /* Build configuration list for PBXNativeTarget "2-Bubble" */;
+			buildConfigurationList = AA3427891F705B7A009FF8A8 /* Build configuration list for PBXNativeTarget "2-ScrollingView" */;
 			buildPhases = (
 				AA34276E1F705B7A009FF8A8 /* Sources */,
 				AA34276F1F705B7A009FF8A8 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = "2-Bubble";
+			name = "2-ScrollingView";
 			productName = Bubble;
-			productReference = AA3427721F705B7A009FF8A8 /* 2-Bubble.app */;
+			productReference = AA3427721F705B7A009FF8A8 /* 2-ScrollingView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 		AA34276A1F705B7A009FF8A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = steve;
 				TargetAttributes = {
 					AA3427711F705B7A009FF8A8 = {
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA34276D1F705B7A009FF8A8 /* Build configuration list for PBXProject "2-Bubble" */;
+			buildConfigurationList = AA34276D1F705B7A009FF8A8 /* Build configuration list for PBXProject "2-ScrollingView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA3427711F705B7A009FF8A8 /* 2-Bubble */,
+				AA3427711F705B7A009FF8A8 /* 2-ScrollingView */,
 			);
 		};
 /* End PBXProject section */
@@ -156,7 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA34278E1F705DCC009FF8A8 /* SecondViewController.m in Sources */,
+				AA34278E1F705DCC009FF8A8 /* ScrollingViewController.m in Sources */,
 				AA34277D1F705B7A009FF8A8 /* ViewController.m in Sources */,
 				AA34277A1F705B7A009FF8A8 /* AppDelegate.m in Sources */,
 				AA3427771F705B7A009FF8A8 /* main.m in Sources */,
@@ -195,7 +195,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -203,7 +205,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -244,7 +250,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -252,7 +260,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -304,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA34276D1F705B7A009FF8A8 /* Build configuration list for PBXProject "2-Bubble" */ = {
+		AA34276D1F705B7A009FF8A8 /* Build configuration list for PBXProject "2-ScrollingView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA3427871F705B7A009FF8A8 /* Debug */,
@@ -313,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA3427891F705B7A009FF8A8 /* Build configuration list for PBXNativeTarget "2-Bubble" */ = {
+		AA3427891F705B7A009FF8A8 /* Build configuration list for PBXNativeTarget "2-ScrollingView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA34278A1F705B7A009FF8A8 /* Debug */,

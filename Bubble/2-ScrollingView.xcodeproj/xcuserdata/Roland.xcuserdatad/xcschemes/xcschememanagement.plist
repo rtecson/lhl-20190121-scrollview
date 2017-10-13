@@ -4,15 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>2-Bubble 2.xcscheme</key>
+		<key>2-ScrollingView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
-		</dict>
-		<key>2-Bubble.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>
