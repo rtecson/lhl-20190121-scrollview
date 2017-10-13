@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA3427121F700636009FF8A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3427111F700636009FF8A8 /* main.m */; };
-		AA3427151F700636009FF8A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3427141F700636009FF8A8 /* AppDelegate.m */; };
-		AA34271B1F700636009FF8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3427191F700636009FF8A8 /* Main.storyboard */; };
-		AA34271D1F700636009FF8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA34271C1F700636009FF8A8 /* Assets.xcassets */; };
-		AA3427201F700636009FF8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA34271E1F700636009FF8A8 /* LaunchScreen.storyboard */; };
-		AA34274E1F7006DE009FF8A8 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34274D1F7006DE009FF8A8 /* ScrollViewController.m */; };
+		AA3427351F700671009FF8A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3427341F700671009FF8A8 /* main.m */; };
+		AA3427381F700671009FF8A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3427371F700671009FF8A8 /* AppDelegate.m */; };
+		AA34273E1F700671009FF8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA34273C1F700671009FF8A8 /* Main.storyboard */; };
+		AA3427401F700671009FF8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA34273F1F700671009FF8A8 /* Assets.xcassets */; };
+		AA3427431F700671009FF8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3427411F700671009FF8A8 /* LaunchScreen.storyboard */; };
+		AA3427511F700C11009FF8A8 /* PagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3427501F700C11009FF8A8 /* PagerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA34270D1F700636009FF8A8 /* SimpleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA3427111F700636009FF8A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AA3427131F700636009FF8A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AA3427141F700636009FF8A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA34271A1F700636009FF8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA34271C1F700636009FF8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA34271F1F700636009FF8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AA3427211F700637009FF8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA34274C1F7006DE009FF8A8 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
-		AA34274D1F7006DE009FF8A8 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		AA3427301F700671009FF8A8 /* 1-Pager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1-Pager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3427341F700671009FF8A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA3427361F700671009FF8A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA3427371F700671009FF8A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA34273D1F700671009FF8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA34273F1F700671009FF8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3427421F700671009FF8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA3427441F700671009FF8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA34274F1F700C11009FF8A8 /* PagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagerViewController.h; sourceTree = "<group>"; };
+		AA3427501F700C11009FF8A8 /* PagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA34270A1F700636009FF8A8 /* Frameworks */ = {
+		AA34272D1F700671009FF8A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,42 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA3427041F700636009FF8A8 = {
+		AA3427271F700671009FF8A8 = {
 			isa = PBXGroup;
 			children = (
-				AA34270F1F700636009FF8A8 /* SimpleScrollView */,
-				AA34270E1F700636009FF8A8 /* Products */,
+				AA3427321F700671009FF8A8 /* Pager */,
+				AA3427311F700671009FF8A8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AA34270E1F700636009FF8A8 /* Products */ = {
+		AA3427311F700671009FF8A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA34270D1F700636009FF8A8 /* SimpleScrollView.app */,
+				AA3427301F700671009FF8A8 /* 1-Pager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA34270F1F700636009FF8A8 /* SimpleScrollView */ = {
+		AA3427321F700671009FF8A8 /* Pager */ = {
 			isa = PBXGroup;
 			children = (
-				AA34274C1F7006DE009FF8A8 /* ScrollViewController.h */,
-				AA34274D1F7006DE009FF8A8 /* ScrollViewController.m */,
-				AA3427191F700636009FF8A8 /* Main.storyboard */,
-				AA3427101F700636009FF8A8 /* Supporting Files */,
+				AA34274F1F700C11009FF8A8 /* PagerViewController.h */,
+				AA3427501F700C11009FF8A8 /* PagerViewController.m */,
+				AA34273C1F700671009FF8A8 /* Main.storyboard */,
+				AA3427331F700671009FF8A8 /* Supporting Files */,
 			);
-			path = SimpleScrollView;
+			path = Pager;
 			sourceTree = "<group>";
 		};
-		AA3427101F700636009FF8A8 /* Supporting Files */ = {
+		AA3427331F700671009FF8A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA3427131F700636009FF8A8 /* AppDelegate.h */,
-				AA3427141F700636009FF8A8 /* AppDelegate.m */,
-				AA34271C1F700636009FF8A8 /* Assets.xcassets */,
-				AA34271E1F700636009FF8A8 /* LaunchScreen.storyboard */,
-				AA3427211F700637009FF8A8 /* Info.plist */,
-				AA3427111F700636009FF8A8 /* main.m */,
+				AA3427361F700671009FF8A8 /* AppDelegate.h */,
+				AA3427371F700671009FF8A8 /* AppDelegate.m */,
+				AA34273F1F700671009FF8A8 /* Assets.xcassets */,
+				AA3427411F700671009FF8A8 /* LaunchScreen.storyboard */,
+				AA3427441F700671009FF8A8 /* Info.plist */,
+				AA3427341F700671009FF8A8 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -82,40 +82,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA34270C1F700636009FF8A8 /* SimpleScrollView */ = {
+		AA34272F1F700671009FF8A8 /* 1-Pager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA3427241F700637009FF8A8 /* Build configuration list for PBXNativeTarget "SimpleScrollView" */;
+			buildConfigurationList = AA3427471F700671009FF8A8 /* Build configuration list for PBXNativeTarget "1-Pager" */;
 			buildPhases = (
-				AA3427091F700636009FF8A8 /* Sources */,
-				AA34270A1F700636009FF8A8 /* Frameworks */,
-				AA34270B1F700636009FF8A8 /* Resources */,
+				AA34272C1F700671009FF8A8 /* Sources */,
+				AA34272D1F700671009FF8A8 /* Frameworks */,
+				AA34272E1F700671009FF8A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SimpleScrollView;
-			productName = SimpleScrollView;
-			productReference = AA34270D1F700636009FF8A8 /* SimpleScrollView.app */;
+			name = "1-Pager";
+			productName = Pager;
+			productReference = AA3427301F700671009FF8A8 /* 1-Pager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AA3427051F700636009FF8A8 /* Project object */ = {
+		AA3427281F700671009FF8A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = steve;
 				TargetAttributes = {
-					AA34270C1F700636009FF8A8 = {
+					AA34272F1F700671009FF8A8 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 6D3DA9G4XW;
+						DevelopmentTeam = H2GBZ259YT;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = AA3427081F700636009FF8A8 /* Build configuration list for PBXProject "SimpleScrollView" */;
+			buildConfigurationList = AA34272B1F700671009FF8A8 /* Build configuration list for PBXProject "1-Pager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -123,55 +123,55 @@
 				en,
 				Base,
 			);
-			mainGroup = AA3427041F700636009FF8A8;
-			productRefGroup = AA34270E1F700636009FF8A8 /* Products */;
+			mainGroup = AA3427271F700671009FF8A8;
+			productRefGroup = AA3427311F700671009FF8A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA34270C1F700636009FF8A8 /* SimpleScrollView */,
+				AA34272F1F700671009FF8A8 /* 1-Pager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AA34270B1F700636009FF8A8 /* Resources */ = {
+		AA34272E1F700671009FF8A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3427201F700636009FF8A8 /* LaunchScreen.storyboard in Resources */,
-				AA34271D1F700636009FF8A8 /* Assets.xcassets in Resources */,
-				AA34271B1F700636009FF8A8 /* Main.storyboard in Resources */,
+				AA3427431F700671009FF8A8 /* LaunchScreen.storyboard in Resources */,
+				AA3427401F700671009FF8A8 /* Assets.xcassets in Resources */,
+				AA34273E1F700671009FF8A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA3427091F700636009FF8A8 /* Sources */ = {
+		AA34272C1F700671009FF8A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA34274E1F7006DE009FF8A8 /* ScrollViewController.m in Sources */,
-				AA3427151F700636009FF8A8 /* AppDelegate.m in Sources */,
-				AA3427121F700636009FF8A8 /* main.m in Sources */,
+				AA3427381F700671009FF8A8 /* AppDelegate.m in Sources */,
+				AA3427511F700C11009FF8A8 /* PagerViewController.m in Sources */,
+				AA3427351F700671009FF8A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AA3427191F700636009FF8A8 /* Main.storyboard */ = {
+		AA34273C1F700671009FF8A8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AA34271A1F700636009FF8A8 /* Base */,
+				AA34273D1F700671009FF8A8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AA34271E1F700636009FF8A8 /* LaunchScreen.storyboard */ = {
+		AA3427411F700671009FF8A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AA34271F1F700636009FF8A8 /* Base */,
+				AA3427421F700671009FF8A8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AA3427221F700637009FF8A8 /* Debug */ = {
+		AA3427451F700671009FF8A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		AA3427231F700637009FF8A8 /* Release */ = {
+		AA3427461F700671009FF8A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,26 +271,26 @@
 			};
 			name = Release;
 		};
-		AA3427251F700637009FF8A8 /* Debug */ = {
+		AA3427481F700671009FF8A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6D3DA9G4XW;
-				INFOPLIST_FILE = SimpleScrollView/Info.plist;
+				DEVELOPMENT_TEAM = H2GBZ259YT;
+				INFOPLIST_FILE = Pager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanutmobile.steve.ShapeLayer.SimpleScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.pager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		AA3427261F700637009FF8A8 /* Release */ = {
+		AA3427491F700671009FF8A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6D3DA9G4XW;
-				INFOPLIST_FILE = SimpleScrollView/Info.plist;
+				DEVELOPMENT_TEAM = H2GBZ259YT;
+				INFOPLIST_FILE = Pager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanutmobile.steve.ShapeLayer.SimpleScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.pager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -298,24 +298,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA3427081F700636009FF8A8 /* Build configuration list for PBXProject "SimpleScrollView" */ = {
+		AA34272B1F700671009FF8A8 /* Build configuration list for PBXProject "1-Pager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA3427221F700637009FF8A8 /* Debug */,
-				AA3427231F700637009FF8A8 /* Release */,
+				AA3427451F700671009FF8A8 /* Debug */,
+				AA3427461F700671009FF8A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA3427241F700637009FF8A8 /* Build configuration list for PBXNativeTarget "SimpleScrollView" */ = {
+		AA3427471F700671009FF8A8 /* Build configuration list for PBXNativeTarget "1-Pager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA3427251F700637009FF8A8 /* Debug */,
-				AA3427261F700637009FF8A8 /* Release */,
+				AA3427481F700671009FF8A8 /* Debug */,
+				AA3427491F700671009FF8A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AA3427051F700636009FF8A8 /* Project object */;
+	rootObject = AA3427281F700671009FF8A8 /* Project object */;
 }

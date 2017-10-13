@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA3427721F705B7A009FF8A8 /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3427721F705B7A009FF8A8 /* 2-Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2-Bubble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3427761F705B7A009FF8A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA3427781F705B7A009FF8A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA3427791F705B7A009FF8A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		AA3427731F705B7A009FF8A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA3427721F705B7A009FF8A8 /* Bubble.app */,
+				AA3427721F705B7A009FF8A8 /* 2-Bubble.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA3427711F705B7A009FF8A8 /* Bubble */ = {
+		AA3427711F705B7A009FF8A8 /* 2-Bubble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA3427891F705B7A009FF8A8 /* Build configuration list for PBXNativeTarget "Bubble" */;
+			buildConfigurationList = AA3427891F705B7A009FF8A8 /* Build configuration list for PBXNativeTarget "2-Bubble" */;
 			buildPhases = (
 				AA34276E1F705B7A009FF8A8 /* Sources */,
 				AA34276F1F705B7A009FF8A8 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = Bubble;
+			name = "2-Bubble";
 			productName = Bubble;
-			productReference = AA3427721F705B7A009FF8A8 /* Bubble.app */;
+			productReference = AA3427721F705B7A009FF8A8 /* 2-Bubble.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,12 +115,12 @@
 				TargetAttributes = {
 					AA3427711F705B7A009FF8A8 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 6D3DA9G4XW;
+						DevelopmentTeam = H2GBZ259YT;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = AA34276D1F705B7A009FF8A8 /* Build configuration list for PBXProject "Bubble" */;
+			buildConfigurationList = AA34276D1F705B7A009FF8A8 /* Build configuration list for PBXProject "2-Bubble" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA3427711F705B7A009FF8A8 /* Bubble */,
+				AA3427711F705B7A009FF8A8 /* 2-Bubble */,
 			);
 		};
 /* End PBXProject section */
@@ -281,10 +281,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6D3DA9G4XW;
+				DEVELOPMENT_TEAM = H2GBZ259YT;
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanutmobile.steve.ShapeLayer.Bubble;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.bubble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -293,10 +293,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6D3DA9G4XW;
+				DEVELOPMENT_TEAM = H2GBZ259YT;
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanutmobile.steve.ShapeLayer.Bubble;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.bubble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -304,7 +304,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA34276D1F705B7A009FF8A8 /* Build configuration list for PBXProject "Bubble" */ = {
+		AA34276D1F705B7A009FF8A8 /* Build configuration list for PBXProject "2-Bubble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA3427871F705B7A009FF8A8 /* Debug */,
@@ -313,13 +313,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA3427891F705B7A009FF8A8 /* Build configuration list for PBXNativeTarget "Bubble" */ = {
+		AA3427891F705B7A009FF8A8 /* Build configuration list for PBXNativeTarget "2-Bubble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA34278A1F705B7A009FF8A8 /* Debug */,
 				AA34278B1F705B7A009FF8A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
