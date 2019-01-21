@@ -23,10 +23,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     self.scrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];
     [self.view addSubview:self.scrollView];
-    self.scrollView.pagingEnabled = YES;
+    
+    self.scrollView.pagingEnabled = YES; // Enable paging
     self.scrollView.delegate = self;
+    
     [self createImageViews];
     [self setupLayout];
 }
@@ -49,6 +52,7 @@
 {
     self.imageView1.translatesAutoresizingMaskIntoConstraints = NO;
     self.imageView2.translatesAutoresizingMaskIntoConstraints = NO;
+    
     [self.imageView1.topAnchor constraintEqualToAnchor:self.scrollView.topAnchor].active = YES;
     [self.imageView1.bottomAnchor constraintEqualToAnchor:self.scrollView.bottomAnchor].active = YES;
     [self.imageView2.topAnchor constraintEqualToAnchor:self.scrollView.topAnchor].active = YES;
@@ -65,6 +69,7 @@
     [self.imageView2.widthAnchor constraintEqualToAnchor:self.view.widthAnchor].active = YES;
     
     [self.imageView1.trailingAnchor constraintEqualToAnchor:self.imageView2.leadingAnchor].active = YES;
+//    [self.imageView1.trailingAnchor constraintEqualToAnchor:self.imageView2.leadingAnchor constant:-50].active = YES;
 }
 
 @end
