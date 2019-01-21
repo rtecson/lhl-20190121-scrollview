@@ -1,0 +1,27 @@
+## Scroll View
+
+We covered a major `UIKit` component today, the `UIScrollView`. It is the underlying class to a lot of other components such as `UITableView`, `UIPickerView`, `UITextField`, etc.
+
+### Implementation details
+
+You may choose to use autolayout or not when adding a child view to the scrollview. If using autolayout, make sure the child views comprehensively define the width and height of the scroll view's content, or you'll get the red error indicator in the storyboard.
+
+If not using autolayout, you will be modifying the frames of the child views. Be sure to set scrollView.contentSize to define the content size of the scroll view's content.
+
+Paging: Allows the scrollview to "snap" to the next page. Useful if all your subviews are the same size. It will snap the distance defined by your contentSize's height or width, depending on if you are scrolling horizontally or vertically.
+
+Zooming: Allows pinch to zoom. You must implement the `UIScrollViewDelegate` method
+
+```
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+```
+
+and return the scroll view's child view that will be zoomed. Typically if you are doing zooming, you only have one child view in your scrollView.
+
+You can modify `UIScrollView.contentInset` to add padding to your content, such as when you want to center your content.
+
+### Resources
+
+Slides: https://docs.google.com/presentation/d/13S6UVqhAL2ta2trl1pF3sFgijWzHLDnSpd3Q7W-UryE/edit#slide=id.g28b37ce3a2_0_132 <br />
+
+Code: https://github.com/rtecson/lhl-20171016-w3d1.git
